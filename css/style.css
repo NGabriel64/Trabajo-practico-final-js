@@ -1,0 +1,117 @@
+/* Normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    color: blue;
+}
+
+.dark-mode{
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+}
+
+body{
+    background-color: burlywood;
+}
+
+header h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.header-button{
+    padding: 5px 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    gap: 25px;
+    min-height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    height: 370px;
+    width: 370px;
+
+    border: 2px solid yellow;
+    background-color: green;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.619) 5px 5px 10px;
+}
+
+.card img{
+    height: 270px;
+    width: 270px;
+}
+
+.card h1{
+    color: white;
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.card p{
+    color: white;
+}
+
+.card span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: blue;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+}
+
+@media screen and (max-width: 480px) {
+    body{background-color: aqua;}
+}
+
+@media (min-width: 481px) and (max-width: 769px){
+    body{background-color: coral;}
+}
+
+@media (min-width: 769px) and (max-width: 1280px){
+    body{background-color: brown;}
+}
+
+@media screen and(min-width: 1280px) {
+    body{background-color: burlywood;}
+    .container{max-width: 1200px;}
+}
+
+footer{
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
