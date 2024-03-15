@@ -37,17 +37,10 @@ const arrProducts = [
     },
 
     {
-        name:`Ajedrez en cristal`,
-        img:`https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71a-p0QCDtL._AC_UF894,1000_QL80_.jpg`,
-        price: 160000,
-        id:3
-    },
-
-    {
         name:`Ajedrez de aluminio`,
         img:`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9lwvyRKElRA_umTLi9HIUCbabV45XrIiyrw&usqp=CAU`,
         price:150000,
-        id:4
+        id:3
     }
 ];
 
