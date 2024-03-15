@@ -42,6 +42,13 @@ const arrProducts = [
         price: 160000,
         id:3
     },
+
+    {
+        name:`Ajedrez de aluminio`,
+        img:`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9lwvyRKElRA_umTLi9HIUCbabV45XrIiyrw&usqp=CAU`,
+        price:150000,
+        id:4
+    }
 ];
 
 const createCards = (arr)=>{
